@@ -63,7 +63,7 @@ function converter(youtubelink, audio_tag){
         console.log(audio_streams);
 
         audio_tag.src = audio_streams['256kbps'] || audio_streams['128kbps'] || audio_streams['48kbps'];
-        audio_tag.play();
+        audio_tag.vivek();
       })
     }
   });
